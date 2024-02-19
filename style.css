@@ -1,0 +1,291 @@
+/* aqui zera todas formatações necessárias */
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #e1e4eb;
+    align-items: center;
+    height: 300px;
+    width: auto;
+}
+
+.imagem-verdura {
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    right: 0px;
+    top: 99px;
+}
+
+/* formatação do menu do lado direito */
+div.simbolo-e-navbar {
+    display: flex;
+    margin: 20px;
+    flex-direction: inline;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
+
+/* formatação do simbolo da empresa na navbar */
+
+
+div.menu-e-simbolos {
+    display: flex;
+    flex-direction: inline;
+    margin-top: 2px;
+    align-items: center;
+    gap: 15px;
+    margin-right: 60px;
+    color: #555555;
+}
+
+.titulo-do-navbar {
+    width: 70%;
+    margin-top: 80px;
+    font-size: 42pt;
+}
+
+.caminho-da-pagina {
+    width: 70%;
+    margin-top: 10px;
+    font-size: 16pt;
+    color: #505050;
+}
+
+div.simbolo {
+    font-size: 24pt;
+    margin-left: 50px;
+}
+
+div.menu-navbar {
+    display: flex;
+    flex-direction: inline;
+}
+
+ul.lista-menu {
+    display: flex;
+    flex-direction: inline;
+    gap: 20px;
+}
+
+.color-lista-menu {
+    color: #505050;
+}
+
+ul.icones-menu {
+    display: flex;
+    flex-direction: inline;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.icone-navbar {
+    height: 16px;
+    padding: 8px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+div.corpo-da-pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+div.linhas {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr.hr1 {
+    margin-bottom: 5px;
+    width: 55px;
+    border-color: #3cb815;
+}
+
+hr.hr2 {
+    width: 85px;
+    margin-bottom: 5px;
+    border-color: #f65005;
+}
+
+div.titulo-do-corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloEDescricao {
+    width: 400px;
+    text-wrap: 5px;
+    margin-bottom: 40px;
+
+}
+
+.titulo-do-corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 32pt;
+    margin-bottom: 12px;
+}
+
+.descricao-com-titulo {
+    line-height: 25px;
+    color: #505050;
+}
+
+div.informacoesEFormulario {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+div.informacoesDeContatoEsquerda {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(60, 184, 21);
+    flex-wrap: nowrap;
+    height: 350px;
+    width: 500px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.dadosDeInformacoes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    margin-top: 8px;
+}
+
+.iconesDeRedesSociais {
+    margin-top: 6px;
+}
+
+.icon-endereco {
+    margin-right: 15px;
+    height: 17px;
+}
+
+.borda-circulo {
+    border: 1px solid white;
+    height: 20px;
+    border-radius: 50px;
+    padding: 9px;
+}
+
+div.formularioDeContatoDireita {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    height: 350px;
+    box-sizing: border-box;
+}
+
+.descricao-acima-do-formulario {
+    text-align: justify;
+    color: #505050;
+    margin-bottom: 13px;
+    float: left;
+}
+
+.link-da-descricao {
+    color: #3cb815;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario-nome-email {
+    display: flex;
+    gap: 15px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.config-input {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 5px;
+    font-size: 12pt;
+    width: auto;
+}
+
+#input-problematico {
+    width: 100%;
+}
+
+button#enviar {
+    margin-top: 15px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    border: none;
+    background-color: #3cb815;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    background-color: black;
+    height: 350px;
+    width: 100%;
+}
+
+.corpo-do-footer {
+    display: flex;
+    width: 70%;
+    height: 
+    justify-content: space-between;
+    color: white;
+}
+
+.coluna-footer {
+    display: flex;
+    flex-direction: column;
+}
